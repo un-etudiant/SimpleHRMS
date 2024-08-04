@@ -69,13 +69,9 @@
             <artifactId>reactor-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth -->
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth -->
-        <!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-tracing -->
         <dependency>
             <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-tracing</artifactId>
-
+            <artifactId>micrometer-tracing-bridge-brave</artifactId>
         </dependency>
 
 
